@@ -1,6 +1,4 @@
-const initialState = {
-  currentPage: "catalog"
-};
+const initialState = "catalog";
 
 const viewReducer = (previousState = initialState, action) => previousState;
 

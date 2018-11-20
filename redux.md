@@ -40,9 +40,7 @@
 handles displayed page name
 
 ```javascript
-const initialState = {
-  currentPage: "catalog"
-};
+const initialState = "catalog";
 ```
 
 - cartReducer
@@ -50,9 +48,7 @@ const initialState = {
 handles add and remove item from the cart
 
 ```javascript
-const initialState = {
-  cart: [];
-}
+const initialState = [];
 ```
 
 - catalogReducer
@@ -60,20 +56,18 @@ const initialState = {
 gives the items list
 
 ```javascript
-const initialState = {
-  catalog: [
-    {
-      itemId: "34567",
-      price: 45
-    },
-    {
-      itemId: "34545",
-      price: 42
-    },
-    {
-      itemId: "34578",
-      price: 5
-    }
-  ]
-};
+const initialState = [
+  {
+    itemId: "34567",
+    price: 45
+  },
+  {
+    itemId: "34545",
+    price: 42
+  },
+  {
+    itemId: "34578",
+    price: 5
+  }
+];
 ```
