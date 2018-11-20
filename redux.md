@@ -41,8 +41,8 @@ handles displayed page name
 
 ```javascript
 const initialState = {
-  currentPage: "catalog";
-}
+  currentPage: "catalog"
+};
 ```
 
 - cartReducer
