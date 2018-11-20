@@ -16,6 +16,6 @@ describe("catalogReducer", () => {
         price: 5
       }
     ];
-    expect(catalogReducer()).toEqual(expected);
+    expect(catalogReducer(expected, { type: "@@INIT" })).toEqual(expected);
   });
 });
