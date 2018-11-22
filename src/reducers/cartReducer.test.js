@@ -4,7 +4,7 @@ import { makeAddToCartAction } from "../actions/actions";
 describe("cartReducer", () => {
   it("initial cart should be a list items", () => {
     const expected = [];
-    expect(cartReducer(expected, { type: "@@INIT" })).toEqual(expected);
+    expect(cartReducer()).toEqual(expected);
   });
 
   it("Cart should contain one item on ADD_TO_CART action", () => {
